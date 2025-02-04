@@ -66,7 +66,7 @@ function generarNumeroSecreto() {
 //funcion para arrojar los numeros iniciales
 function condicionesIniciales() {
     asignarTextoElemento ('h1','Juego del numero secreto!');
-    asignarTextoElemento('p','Indica un numero del 1 al 100');
+    asignarTextoElemento('p','Indica un numero del 1 al 10');
     numeroSecreto = generarNumeroSecreto();
     intentos=1;
 }
